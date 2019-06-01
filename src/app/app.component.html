@@ -1,0 +1,88 @@
+<header>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+    <div class="container">
+      <a href="#" class="navbar-brands waves-effect">
+        <img class="logo" src=" ../assets/logo.png" alt="logo">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent"
+        aria-controls="navContent" aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div id="navContent" class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a routerLink="/" routerLinkActive="active" class="nav-link waves-effect">Home</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link waves-effect">Blog</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a routerLink="/post-page" routerLinkActive="active" class="nav-link waves-effect">Posts</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a routerLink="/contacts" routerLinkActive="active" class="nav-link waves-effect">Contacts</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a href="#" class="nav-link waves-effect border-light rounded">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link waves-effect border-light rounded">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link waves-effect border border-light rounded">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+<router-outlet></router-outlet>
+
+
+<app-scroll-top></app-scroll-top>
+<footer class="page-footer text-center font-small mdb-color darken-2 mt-4 wow fadeIn">
+  <div class="pt-4">
+    <a href="https://getbootstrap.com/docs/4.3/getting-started/introduction/" class="btn btn-outline-white">Bootstrap <i
+        class="fa fa-download"></i></a>
+    <a href="https://www.youtube.com/watch?v=FCYZAnkZnNA&list=PLVfMKQXDAhGW_eRZvZ1dzw9S_w3bpZkFB&index=3"
+      class="btn btn-outline-white">Practical tutorials <i class="fa fa-graduation-cap"></i></a>
+  </div>
+  <hr class="my-4">
+  <div class="pb-4">
+    <a href="" class="fab fa-facebook mr-3"></a>
+    <a href="" class="fab fa-twitter mr-3"></a>
+    <a href="" class="fab fa-youtube mr-3"></a>
+    <a href="" class="fab fa-linkedin mr-3"></a>
+    <a href="" class="fab fa-vk mr-3"></a>
+    <a href="" class="fab fa-google-plus mr-3"></a>
+    <a href="" class="fab fa-instagram mr-3"></a>
+    <a href="" class="fab fa-codepen mr-3"></a>
+    <a href="" class="fab fa-telegram mr-3"></a>
+    <a href="" class="fab fa-google mr-3"></a>
+  </div>
+
+  <div class="footer-copyright py-3">
+    ©The Best Travelling Agency Ever
+  </div>
+
+</footer>
+
